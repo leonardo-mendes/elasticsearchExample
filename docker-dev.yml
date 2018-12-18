@@ -4,8 +4,8 @@ elasticsearch:
     - "9200:9200"
     - "9300:9300"
   environment:
-    - cluster.name=realwave-dev
-    - node.name=realwave-node
+    - cluster.name=elasticExample
+    - node.name=exampleOne
     - xpack.security.enabled=false
     - discovery.type=single-node
     - transport.host=0.0.0.0
